@@ -25,5 +25,5 @@ This repository demonstrates a clean implementation of the **Proxy** design patt
 ```cpp
 ProxyUser user("Dmytro"); 
 std::cout << user.getInfo() << "\n";
-// Output
+// Output:
 // [Proxy] Delegating -> [RealUser] Name: Dmytro
